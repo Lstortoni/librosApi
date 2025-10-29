@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Implementation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiLibrosController.Model\ApiLibrosController.Model.csproj" />
+    <ProjectReference Include="..\ApriLibrosController.Interfaces\ApiLibrosController.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
