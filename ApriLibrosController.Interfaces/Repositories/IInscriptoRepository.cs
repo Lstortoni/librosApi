@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApiLibrosController.Model
+namespace ApiLibrosController.Interfaces.Repositories
 {
-    public class Orden
+    internal interface IInscriptoRepository
     {
     }
 }
